@@ -20,6 +20,7 @@
                     colors: {
                         clifford: '#da373d',
                         'bike-primary': '#E76F51',
+                        'foot-primary': '#0B0D17',
                         'bike-primary-bg': 'rgba(231, 111, 81, 0.10)',
                     }
                 }
@@ -287,9 +288,10 @@
             </h2>
             <div>
                 <div class="my-5 hero">
+
                     <div class="flex-col hero-content lg:flex-row">
-                        <img src="./images/others/faq.png" class="" />
-                        <div>
+                        <img src="./images/others/faq.png" class="md:mr-16" />
+                        <div class="text-left">
                             <!-- acciordion -->
                             <div class="mt-5 mb-4 border collapse">
                                 <input type="radio" name="my-accordion-1" checked="checked" />
@@ -349,9 +351,40 @@
         </section>
 
     </main>
-    <footer>
+    <footer class="p-10 mx-auto footer bg-neutral text-neutral-content bg-foot-primaryJ">
+        <div>
+            <div>
+                <ul class="flex ">
+                    <li>Download Now</li>
+                    <li>License</li>
+                </ul>
+            </div>
+            <p>ACME Industries Ltd.<br />Providing reliable tech since 1992</p>
+        </div>
+        <div>
+            <span class="text-[#D9DBE1] text-[18px] font-medium mb-2">Get the App</span>
+            <div class="grid content-center grid-cols-1 gap-4">
+                <a><img src="./images/others/android.png" alt="" class="w-36"></a>
+                <a><img src="./images/others/ios.png" alt="" class="w-36"></a>
 
+            </div>
+        </div>
     </footer>
+    <!-- <footer class=" bg-foot-primary">
+                    <div>
+                        <div>
+
+                        </div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div>
+                        <h2 class="text-[#D9DBE1]">Get the App</h2>
+                        <img src="./images/others/android.png" alt="">
+                        <img src="./images/others/ios.png" alt="">
+
+                    </div>
+    </footer> -->
 </body>
 
 </html>
